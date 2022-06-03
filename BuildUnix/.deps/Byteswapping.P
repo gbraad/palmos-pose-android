@@ -1,0 +1,315 @@
+Byteswapping.o: ../SrcShared/Byteswapping.cpp ../SrcShared/EmCommon.h \
+ ../SrcShared/Switches.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/endian.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/endian.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/android/api-level.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/endian.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/types.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/stdint.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/posix_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/stddef.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/compiler.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/posix_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/kernel.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/sysmacros.h \
+ ../SrcShared/EmTypes.h ../SrcAndroid/EmCommonUnix.h ../SrcShared/Palm.h \
+ ../SrcShared/PalmPack.h ../SrcShared/Palm/Platform/Incs/BuildDefines.h \
+ ../SrcShared/Palm/Platform/Incs/PalmTypes.h \
+ ../SrcShared/Palm/Platform/Incs/BuildDefaults.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/Bitmap.h \
+ ../SrcShared/Palm/Platform/Incs/Core/CoreTraps.h \
+ ../SrcShared/PalmOptErrorCheckLevel.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/CharAttr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/Chars.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/Crc.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/DataMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/ErrorBase.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/setjmp.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/setjmp.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/MemoryMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/DateTime.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/FeatureMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/Font.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/IntlMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/KeyMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/Localize.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/NetBitUtils.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/NetMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Libraries/LibTraps.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/SysEvent.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/Rect.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/Window.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/OverlayMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/PalmLocale.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/PenMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/Preferences.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/SystemMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/SystemResources.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/InsPoint.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/Event.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/LocaleMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/AttentionMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/SerialMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/SerialLinkMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/SoundMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/SysEvtMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/SystemPkt.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/TextMgr.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/Control.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/FatalAlert.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/Field.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/Find.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/Form.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/List.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/ScrollBar.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/Table.h \
+ ../SrcShared/Palm/Platform/Incs/Core/UI/UIResources.h \
+ ../SrcShared/Palm/Platform/Incs/Core/Hardware/M68KHwr.h \
+ ../SrcShared/Palm/Platform/Core/System/IncsPrv/DebugPrv.h \
+ ../SrcShared/Palm/Platform/Core/System/IncsPrv/SystemPrv.h \
+ ../SrcShared/Palm/Platform/Core/System/IncsPrv/Globals.h \
+ ../SrcShared/Palm/Platform/Core/System/IncsPrv/SerialLinkPrv.h \
+ ../SrcShared/Palm/Platform/Core/System/IncsPrv/MemoryPrv.h \
+ ../SrcShared/Palm/Platform/Core/System/IncsPrv/DebugPrv.h \
+ ../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/Hardware.h \
+ ../SrcShared/Palm/Platform/Incs/Core/Hardware/HAL.h \
+ ../SrcShared/Palm/Platform/Core/System/IncsPrv/DataPrv.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/DLCommon.h \
+ ../SrcShared/Palm/Platform/Incs/Core/System/DLServer.h \
+ ../SrcShared/Palm/Device/EZAustin/IncsPrv/SED1375Hwr.h \
+ ../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/M68328Hwr.h \
+ ../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/M68EZ328Hwr.h \
+ ../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/M68VZ328Hwr.h \
+ ../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/M68SZ328Hwr.h \
+ ../SrcShared/PalmPackPop.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/socket.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/socket.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/socket.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/sockios.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/sockios.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/uio.h \
+ ../SrcShared/EmAssert.h ../SrcShared/Byteswapping.h \
+ ../SrcShared/UAE/UAE.h ../SrcShared/UAE/sysconfig.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/string.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/malloc.h \
+ ../SrcShared/UAE/sysdeps.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/stdlib.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/alloca.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/strings.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/memory.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/errno.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/errno.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/errno.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/errno.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/errno-base.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/assert.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/page.h \
+ ../SrcShared/EmTypes.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/unistd.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/select.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/time.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/time.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/signal.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/signal.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/sigcontext.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/siginfo.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/sysconf.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/capability.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/pathconf.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/fcntl.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/fcntl.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/fcntl.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/fcntl.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/dirent.h \
+ ../SrcShared/UAE/target.h ../SrcShared/UAE/config.h \
+ ../SrcShared/UAE/options.h ../SrcShared/UAE/machdep_m68k.h \
+ ../SrcShared/UAE/memory_cpu.h ../SrcShared/UAE/machdep_maccess.h \
+ ../SrcShared/Hardware/EmMemory.h ../SrcShared/Switches.h \
+ ../SrcShared/EmAssert.h ../SrcShared/UAE/sysconfig.h \
+ ../SrcShared/UAE/custom.h ../SrcShared/UAE/readcpu.h \
+ ../SrcShared/UAE/newcpu.h ../SrcShared/UAE/compiler.h \
+ ../SrcShared/UAE/cputbl.h
+../SrcShared/Byteswapping.cpp :
+../SrcShared/EmCommon.h :
+../SrcShared/Switches.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/endian.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/endian.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/android/api-level.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/endian.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/types.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/stdint.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/posix_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/stddef.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/compiler.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/posix_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/kernel.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/sysmacros.h :
+../SrcShared/EmTypes.h :
+../SrcAndroid/EmCommonUnix.h :
+../SrcShared/Palm.h :
+../SrcShared/PalmPack.h :
+../SrcShared/Palm/Platform/Incs/BuildDefines.h :
+../SrcShared/Palm/Platform/Incs/PalmTypes.h :
+../SrcShared/Palm/Platform/Incs/BuildDefaults.h :
+../SrcShared/Palm/Platform/Incs/Core/System/Bitmap.h :
+../SrcShared/Palm/Platform/Incs/Core/CoreTraps.h :
+../SrcShared/PalmOptErrorCheckLevel.h :
+../SrcShared/Palm/Platform/Incs/Core/System/CharAttr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/Chars.h :
+../SrcShared/Palm/Platform/Incs/Core/System/Crc.h :
+../SrcShared/Palm/Platform/Incs/Core/System/DataMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/ErrorBase.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/setjmp.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/setjmp.h :
+../SrcShared/Palm/Platform/Incs/Core/System/MemoryMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/DateTime.h :
+../SrcShared/Palm/Platform/Incs/Core/System/FeatureMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/Font.h :
+../SrcShared/Palm/Platform/Incs/Core/System/IntlMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/KeyMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/Localize.h :
+../SrcShared/Palm/Platform/Incs/Core/System/NetBitUtils.h :
+../SrcShared/Palm/Platform/Incs/Core/System/NetMgr.h :
+../SrcShared/Palm/Platform/Incs/Libraries/LibTraps.h :
+../SrcShared/Palm/Platform/Incs/Core/System/SysEvent.h :
+../SrcShared/Palm/Platform/Incs/Core/System/Rect.h :
+../SrcShared/Palm/Platform/Incs/Core/System/Window.h :
+../SrcShared/Palm/Platform/Incs/Core/System/OverlayMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/PalmLocale.h :
+../SrcShared/Palm/Platform/Incs/Core/System/PenMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/Preferences.h :
+../SrcShared/Palm/Platform/Incs/Core/System/SystemMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/SystemResources.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/InsPoint.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/Event.h :
+../SrcShared/Palm/Platform/Incs/Core/System/LocaleMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/AttentionMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/SerialMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/SerialLinkMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/SoundMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/SysEvtMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/System/SystemPkt.h :
+../SrcShared/Palm/Platform/Incs/Core/System/TextMgr.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/Control.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/FatalAlert.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/Field.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/Find.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/Form.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/List.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/ScrollBar.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/Table.h :
+../SrcShared/Palm/Platform/Incs/Core/UI/UIResources.h :
+../SrcShared/Palm/Platform/Incs/Core/Hardware/M68KHwr.h :
+../SrcShared/Palm/Platform/Core/System/IncsPrv/DebugPrv.h :
+../SrcShared/Palm/Platform/Core/System/IncsPrv/SystemPrv.h :
+../SrcShared/Palm/Platform/Core/System/IncsPrv/Globals.h :
+../SrcShared/Palm/Platform/Core/System/IncsPrv/SerialLinkPrv.h :
+../SrcShared/Palm/Platform/Core/System/IncsPrv/MemoryPrv.h :
+../SrcShared/Palm/Platform/Core/System/IncsPrv/DebugPrv.h :
+../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/Hardware.h :
+../SrcShared/Palm/Platform/Incs/Core/Hardware/HAL.h :
+../SrcShared/Palm/Platform/Core/System/IncsPrv/DataPrv.h :
+../SrcShared/Palm/Platform/Incs/Core/System/DLCommon.h :
+../SrcShared/Palm/Platform/Incs/Core/System/DLServer.h :
+../SrcShared/Palm/Device/EZAustin/IncsPrv/SED1375Hwr.h :
+../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/M68328Hwr.h :
+../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/M68EZ328Hwr.h :
+../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/M68VZ328Hwr.h :
+../SrcShared/Palm/Platform/Core/Hardware/IncsPrv/M68SZ328Hwr.h :
+../SrcShared/PalmPackPop.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/socket.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/socket.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/socket.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/sockios.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/sockios.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/uio.h :
+../SrcShared/EmAssert.h :
+../SrcShared/Byteswapping.h :
+../SrcShared/UAE/UAE.h :
+../SrcShared/UAE/sysconfig.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/string.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/malloc.h :
+../SrcShared/UAE/sysdeps.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/stdlib.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/alloca.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/strings.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/memory.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/errno.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/errno.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/errno.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/errno.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/errno-base.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/assert.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/page.h :
+../SrcShared/EmTypes.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/unistd.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/select.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/time.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/time.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/signal.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/signal.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/signal.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/sigcontext.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/siginfo.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/sysconf.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/capability.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/pathconf.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/fcntl.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/fcntl.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/fcntl.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/fcntl.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/dirent.h :
+../SrcShared/UAE/target.h :
+../SrcShared/UAE/config.h :
+../SrcShared/UAE/options.h :
+../SrcShared/UAE/machdep_m68k.h :
+../SrcShared/UAE/memory_cpu.h :
+../SrcShared/UAE/machdep_maccess.h :
+../SrcShared/Hardware/EmMemory.h :
+../SrcShared/Switches.h :
+../SrcShared/EmAssert.h :
+../SrcShared/UAE/sysconfig.h :
+../SrcShared/UAE/custom.h :
+../SrcShared/UAE/readcpu.h :
+../SrcShared/UAE/newcpu.h :
+../SrcShared/UAE/compiler.h :
+../SrcShared/UAE/cputbl.h :

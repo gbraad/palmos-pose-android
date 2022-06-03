@@ -1,0 +1,1 @@
+CC=/tmp/my-android-toolchain/bin/arm-linux-androideabi-gcc; CPP=/tmp/my-android-toolchain/bin/arm-linux-androideabi-g++; ./configure --host=arm-linux --prefix=/tmp/my-android-toolchain/

@@ -1,0 +1,131 @@
+cpudefs.o: ../SrcShared/UAE/cpudefs.c ../SrcShared/UAE/sysconfig.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/string.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/android/api-level.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/malloc.h \
+ ../SrcShared/UAE/sysdeps.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/types.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/stdint.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/_wchar_limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/posix_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/stddef.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/compiler.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/posix_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/kernel.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/stdlib.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/alloca.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/strings.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/memory.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/errno.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/errno.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/errno.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/errno.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/errno-base.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/assert.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/limits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/page.h \
+ ../SrcShared/EmTypes.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/unistd.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/select.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/time.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/time.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/signal.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/signal.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/signal.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/sigcontext.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/siginfo.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/sysconf.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/capability.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/pathconf.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/fcntl.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/fcntl.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/fcntl.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/fcntl.h \
+ /tmp/my-android-toolchain/bin/../sysroot/usr/include/dirent.h \
+ ../SrcShared/UAE/target.h ../SrcShared/UAE/config.h \
+ ../SrcShared/UAE/options.h ../SrcShared/UAE/readcpu.h
+../SrcShared/UAE/cpudefs.c :
+../SrcShared/UAE/sysconfig.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/string.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/cdefs.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/cdefs_elf.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/android/api-level.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/malloc.h :
+../SrcShared/UAE/sysdeps.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/types.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/stdint.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/_wchar_limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/posix_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/stddef.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/compiler.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/posix_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/kernel.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/sysmacros.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/stdlib.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/alloca.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/strings.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/memory.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/errno.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/errno.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/errno.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/errno.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/errno-base.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/assert.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/internal_types.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/machine/limits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/syslimits.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/page.h :
+../SrcShared/EmTypes.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/unistd.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/select.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/time.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/time.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/signal.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/signal.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/signal.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/sigcontext.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/siginfo.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/siginfo.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/sys/sysconf.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/capability.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/pathconf.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/fcntl.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/linux/fcntl.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm/fcntl.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/asm-generic/fcntl.h :
+/tmp/my-android-toolchain/bin/../sysroot/usr/include/dirent.h :
+../SrcShared/UAE/target.h :
+../SrcShared/UAE/config.h :
+../SrcShared/UAE/options.h :
+../SrcShared/UAE/readcpu.h :

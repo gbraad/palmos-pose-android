@@ -1,0 +1,65 @@
+ResStrings.o: ResStrings.cpp ../SrcShared/Strings.r.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/map \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_tree.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_algobase.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/c++config.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/os_defines.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/cpu_defines.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/functexcept.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/exception_defines.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/cpp_type_traits.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/ext/type_traits.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/ext/numeric_traits.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_pair.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/move.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/concept_check.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_iterator_base_types.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_iterator_base_funcs.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_iterator.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/debug/debug.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/allocator.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/c++allocator.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/ext/new_allocator.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/new \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/exception \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_function.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/backward/binders.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_map.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/initializer_list \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_multimap.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/range_access.h \
+ /tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/cstddef \
+ /tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h
+ResStrings.cpp :
+../SrcShared/Strings.r.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/map :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_tree.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_algobase.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/c++config.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/os_defines.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/cpu_defines.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/functexcept.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/exception_defines.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/cpp_type_traits.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/ext/type_traits.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/ext/numeric_traits.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_pair.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/move.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/concept_check.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_iterator_base_types.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_iterator_base_funcs.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_iterator.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/debug/debug.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/allocator.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/arm-linux-androideabi/bits/c++allocator.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/ext/new_allocator.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/new :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/exception :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_function.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/backward/binders.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_map.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/initializer_list :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_multimap.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/range_access.h :
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/cstddef :
+/tmp/my-android-toolchain/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h :

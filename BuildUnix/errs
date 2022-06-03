@@ -1,0 +1,428 @@
+Making all in Gzip
+make[1]: Entering directory `/home/sorceror/palmdev/Tooling/pose/android/BuildUnix/Gzip'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/sorceror/palmdev/Tooling/pose/android/BuildUnix/Gzip'
+Making all in jpeg
+make[1]: Entering directory `/home/sorceror/palmdev/Tooling/pose/android/BuildUnix/jpeg'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/home/sorceror/palmdev/Tooling/pose/android/BuildUnix/jpeg'
+make[1]: Entering directory `/home/sorceror/palmdev/Tooling/pose/android/BuildUnix'
+/tmp/my-android-toolchain/bin/i686-linux-android-g++ -DX_DISPLAY_MISSING=1 -DHAVE_DIRENT_H=1 -DHAVE_ENDIAN_H=1 -DHAVE_MACHINE_ENDIAN_H=1 -DHAVE_FCNTL_H=1 -DHAVE_LIMITS_H=1 -DHAVE_STRINGS_H=1 -DHAVE_SYS_TIME_H=1 -DHAVE_UNISTD_H=1 -DHAVE_TYPE_SOCKLEN_T=1 -DHAVE_ALLOCA_H=1 -DHAVE_ALLOCA=1 -DHAVE_MKDIR=1 -DHAVE_MKSTEMP=1 -DHAVE_TEMPNAM=1 -DHAVE_GL=1 -DHAVE_GL_GLU_H=1  -I. -I. -I/tmp/my-android-toolchain//include -I./../SrcShared -I./../SrcShared/Hardware -I./../SrcShared/Hardware/TRG -I./../SrcShared/Palm/Device -I./../SrcShared/Palm/Platform -I./../SrcShared/Palm/Platform/Core/Hardware/IncsPrv -I./../SrcShared/Palm/Platform/Core/System/IncsPrv -I./../SrcShared/Palm/Platform/Incs -I./../SrcShared/Palm/Platform/Incs/Core -I./../SrcShared/Palm/Platform/Incs/Core/Hardware -I./../SrcShared/Palm/Platform/Incs/Core/System -I./../SrcShared/Palm/Platform/Incs/Core/UI -I./../SrcShared/Palm/Platform/Incs/Libraries -I./../SrcShared/Gzip -I./../SrcShared/jpeg -I./../SrcShared/omnithread -I./../SrcShared/Patches -I./../SrcShared/UAE -I./../SrcAndroid -I/opt/sorceror/android-ndk-r9b/platforms/android-19/arch-x86//usr/include/    -DPLATFORM_UNIX=1 -D__PALMOS_TRAPS__=0 -DEMULATION_LEVEL=EMULATION_UNIX -fPIC -O3  -DHAS_PROFILING=0 -DNDEBUG  -fexceptions -Wall -Wno-multichar -Wno-unknown-pragmas -Wno-conversion   -D_REENTRANT -DPthreadDraftVersion=10  -c ./../SrcShared/omnithread/posix.cpp
+In file included from ./../SrcShared/EmFileImport.h:17:0,
+                 from ./../SrcShared/EmDlg.h:17,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmDirRef.h:23:9: error: 'vector' does not name a type
+./../SrcShared/EmDirRef.h:24:9: error: 'vector' does not name a type
+./../SrcShared/EmDirRef.h:32:26: error: 'string' does not name a type
+./../SrcShared/EmDirRef.h:32:32: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmDirRef.h:34:43: error: 'string' does not name a type
+./../SrcShared/EmDirRef.h:34:49: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmDirRef.h:44:3: error: 'Bool' does not name a type
+./../SrcShared/EmDirRef.h:45:3: error: 'Bool' does not name a type
+./../SrcShared/EmDirRef.h:48:3: error: 'string' does not name a type
+./../SrcShared/EmDirRef.h:50:3: error: 'string' does not name a type
+./../SrcShared/EmDirRef.h:52:26: error: 'EmFileRefList' has not been declared
+./../SrcShared/EmDirRef.h:52:42: error: 'EmDirRefList' has not been declared
+./../SrcShared/EmDirRef.h:59:34: error: 'string' does not name a type
+./../SrcShared/EmDirRef.h:59:40: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmDirRef.h:60:3: error: 'string' does not name a type
+./../SrcShared/EmDirRef.h:87:3: error: 'string' does not name a type
+In file included from ./../SrcShared/EmDlg.h:17:0,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmFileImport.h:39:77: error: 'LocalID' has not been declared
+./../SrcShared/EmFileImport.h:40:45: error: 'EmFileRefList' does not name a type
+./../SrcShared/EmFileImport.h:40:58: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmFileImport.h:40:81: error: 'vector' has not been declared
+./../SrcShared/EmFileImport.h:40:87: error: expected ',' or '...' before '<' token
+./../SrcShared/EmFileImport.h:51:3: error: 'LocalID' does not name a type
+./../SrcShared/EmFileImport.h:53:26: error: 'Err' has not been declared
+./../SrcShared/EmFileImport.h:57:46: error: 'EmFileRefList' does not name a type
+./../SrcShared/EmFileImport.h:57:59: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmFileImport.h:90:3: error: 'LocalID' does not name a type
+./../SrcShared/EmFileImport.h:91:3: error: 'UInt16' does not name a type
+./../SrcShared/EmFileImport.h:92:3: error: 'DmOpenRef' does not name a type
+In file included from ./../SrcShared/EmDlg.h:18:0,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmFileRef.h:31:9: error: 'vector' does not name a type
+./../SrcShared/EmFileRef.h:63:9: error: 'vector' does not name a type
+./../SrcShared/EmFileRef.h:71:27: error: 'string' does not name a type
+./../SrcShared/EmFileRef.h:71:33: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmFileRef.h:73:44: error: 'string' does not name a type
+./../SrcShared/EmFileRef.h:73:50: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmFileRef.h:93:3: error: 'string' does not name a type
+./../SrcShared/EmFileRef.h:95:3: error: 'string' does not name a type
+./../SrcShared/EmFileRef.h:102:34: error: 'string' does not name a type
+./../SrcShared/EmFileRef.h:102:40: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmFileRef.h:103:3: error: 'string' does not name a type
+./../SrcShared/EmFileRef.h:133:3: error: 'string' does not name a type
+In file included from ./../SrcShared/EmDlg.h:19:0,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmTransport.h:44:55: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:44:61: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmTransport.h:45:38: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:45:44: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmTransport.h:52:3: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:53:3: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:54:3: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:55:3: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:58:10: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:66:3: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:69:9: error: 'vector' does not name a type
+./../SrcShared/EmTransport.h:99:11: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:137:11: error: 'string' does not name a type
+./../SrcShared/EmTransport.h:139:38: error: 'EmTransportDescriptorList' has not been declared
+In file included from ./../SrcShared/EmDlg.h:20:0,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmTransportSerial.h:28:11: error: 'string' does not name a type
+./../SrcShared/EmTransportSerial.h:34:11: error: 'vector' does not name a type
+./../SrcShared/EmTransportSerial.h:35:11: error: 'vector' does not name a type
+./../SrcShared/EmTransportSerial.h:63:4: error: 'PortName' does not name a type
+./../SrcShared/EmTransportSerial.h:71:11: error: 'map' does not name a type
+./../SrcShared/EmTransportSerial.h:88:11: error: 'string' does not name a type
+./../SrcShared/EmTransportSerial.h:101:38: error: 'EmTransportDescriptorList' has not been declared
+./../SrcShared/EmTransportSerial.h:102:38: error: 'BaudList' has not been declared
+./../SrcShared/EmTransportSerial.h:126:40: error: 'PortNameList' has not been declared
+./../SrcShared/EmTransportSerial.h:127:41: error: 'BaudList' has not been declared
+./../SrcShared/EmTransportSerial.h:133:10: error: 'OpenPortList' does not name a type
+In file included from ./../SrcShared/EmStructs.h:18:0,
+                 from ./../SrcShared/EmDlg.h:22,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmDevice.h:30:9: error: 'vector' does not name a type
+./../SrcShared/EmDevice.h:38:27: error: 'string' does not name a type
+./../SrcShared/EmDevice.h:38:33: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmDevice.h:69:3: error: 'string' does not name a type
+./../SrcShared/EmDevice.h:70:3: error: 'string' does not name a type
+./../SrcShared/EmDevice.h:71:3: error: 'vector' does not name a type
+./../SrcShared/EmDevice.h:74:10: error: 'EmDeviceList' does not name a type
+In file included from ./../SrcShared/EmDlg.h:22:0,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmStructs.h:28:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:29:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:31:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:32:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:34:9: error: 'map' does not name a type
+./../SrcShared/EmStructs.h:35:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:36:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:65:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:86:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:93:2: error: 'UInt32' does not name a type
+./../SrcShared/EmStructs.h:94:2: error: 'UInt32' does not name a type
+./../SrcShared/EmStructs.h:95:2: error: 'UInt16' does not name a type
+./../SrcShared/EmStructs.h:96:2: error: 'LocalID' does not name a type
+./../SrcShared/EmStructs.h:97:2: error: 'UInt16' does not name a type
+./../SrcShared/EmStructs.h:98:2: error: 'UInt32' does not name a type
+./../SrcShared/EmStructs.h:99:2: error: 'UInt16' does not name a type
+./../SrcShared/EmStructs.h:101:13: error: 'dmDBNameLength' was not declared in this scope
+./../SrcShared/EmStructs.h:102:15: error: 'dmDBNameLength' was not declared in this scope
+./../SrcShared/EmStructs.h: In member function 'int DatabaseInfo::operator<(const DatabaseInfo&) const':
+./../SrcShared/EmStructs.h:105:9: error: 'creator' was not declared in this scope
+./../SrcShared/EmStructs.h:105:25: error: 'const struct DatabaseInfo' has no member named 'creator'
+./../SrcShared/EmStructs.h:106:9: error: 'creator' was not declared in this scope
+./../SrcShared/EmStructs.h:106:25: error: 'const struct DatabaseInfo' has no member named 'creator'
+./../SrcShared/EmStructs.h:107:9: error: 'type' was not declared in this scope
+./../SrcShared/EmStructs.h:107:22: error: 'const struct DatabaseInfo' has no member named 'type'
+./../SrcShared/EmStructs.h: In member function 'int DatabaseInfo::operator==(const DatabaseInfo&) const':
+./../SrcShared/EmStructs.h:111:13: error: 'creator' was not declared in this scope
+./../SrcShared/EmStructs.h:111:30: error: 'const struct DatabaseInfo' has no member named 'creator'
+./../SrcShared/EmStructs.h:112:7: error: 'type' was not declared in this scope
+./../SrcShared/EmStructs.h:112:21: error: 'const struct DatabaseInfo' has no member named 'type'
+./../SrcShared/EmStructs.h: At global scope:
+./../SrcShared/EmStructs.h:114:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:125:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:180:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:200:2: error: 'DatabaseInfoList' does not name a type
+./../SrcShared/EmStructs.h: In constructor 'GremlinInfo::GremlinInfo()':
+./../SrcShared/EmStructs.h:192:3: error: class 'GremlinInfo' does not have any field named 'fAppList'
+./../SrcShared/EmStructs.h: At global scope:
+./../SrcShared/EmStructs.h:202:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:238:2: error: 'DatabaseInfoList' does not name a type
+./../SrcShared/EmStructs.h:250:2: error: 'string' does not name a type
+./../SrcShared/EmStructs.h: In constructor 'HordeInfo::HordeInfo()':
+./../SrcShared/EmStructs.h:218:3: error: class 'HordeInfo' does not have any field named 'fAppList'
+./../SrcShared/EmStructs.h:222:3: error: class 'HordeInfo' does not have any field named 'fFirstLaunchedAppName'
+./../SrcShared/EmStructs.h: At global scope:
+./../SrcShared/EmStructs.h:271:9: error: 'vector' does not name a type
+./../SrcShared/EmStructs.h:279:2: error: 'Int32' does not name a type
+./../SrcShared/EmStructs.h:288:2: error: 'Int32' does not name a type
+./../SrcShared/EmStructs.h:289:2: error: 'Int32' does not name a type
+./../SrcShared/EmStructs.h:290:2: error: 'Int32' does not name a type
+./../SrcShared/EmStructs.h:297:2: error: 'MemPtr' does not name a type
+./../SrcShared/EmStructs.h:311:9: error: 'vector' does not name a type
+In file included from ./../SrcShared/CGremlins.h:17:0,
+                 from ./../SrcShared/Hordes.h:19,
+                 from ./../SrcShared/Logging.h:17,
+                 from ./../SrcShared/EmDlg.h:23,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmStream.h:53:36: error: 'string' does not name a type
+./../SrcShared/EmStream.h:53:44: error: ISO C++ forbids declaration of 'inString' with no type [-fpermissive]
+./../SrcShared/EmStream.h:73:30: error: declaration of 'operator>>' as non-function
+./../SrcShared/EmStream.h:73:25: error: expected ';' at end of member declaration
+./../SrcShared/EmStream.h:73:36: error: expected ')' before '&' token
+./../SrcShared/EmStream.h:86:30: error: 'deque' was not declared in this scope
+./../SrcShared/EmStream.h:86:30: note: suggested alternative:
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_deque.h:719:11: note:   'std::deque'
+./../SrcShared/EmStream.h:86:37: error: expected primary-expression before '>' token
+./../SrcShared/EmStream.h:86:40: error: 'container' was not declared in this scope
+./../SrcShared/EmStream.h:86:49: error: declaration of 'operator>>' as non-function
+./../SrcShared/EmStream.h:104:30: error: 'list' was not declared in this scope
+./../SrcShared/EmStream.h:104:30: note: suggested alternative:
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_list.h:429:11: note:   'std::list'
+./../SrcShared/EmStream.h:104:36: error: expected primary-expression before '>' token
+./../SrcShared/EmStream.h:104:39: error: 'container' was not declared in this scope
+./../SrcShared/EmStream.h:104:48: error: declaration of 'operator>>' as non-function
+./../SrcShared/EmStream.h:122:30: error: 'vector' was not declared in this scope
+./../SrcShared/EmStream.h:122:30: note: suggested alternative:
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_vector.h:180:11: note:   'std::vector'
+./../SrcShared/EmStream.h:122:38: error: expected primary-expression before '>' token
+./../SrcShared/EmStream.h:122:41: error: 'container' was not declared in this scope
+./../SrcShared/EmStream.h:122:50: error: declaration of 'operator>>' as non-function
+./../SrcShared/EmStream.h:140:36: error: 'deque' does not name a type
+./../SrcShared/EmStream.h:140:36: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmStream.h:140:41: error: expected ',' or '...' before '<' token
+./../SrcShared/EmStream.h:157:36: error: 'list' does not name a type
+./../SrcShared/EmStream.h:157:36: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmStream.h:157:40: error: expected ',' or '...' before '<' token
+./../SrcShared/EmStream.h:157:16: error: 'template<class T> EmStream& EmStream::operator<<(int)' cannot be overloaded
+./../SrcShared/EmStream.h:140:16: error: with 'template<class T> EmStream& EmStream::operator<<(int)'
+./../SrcShared/EmStream.h:174:36: error: 'vector' does not name a type
+./../SrcShared/EmStream.h:174:36: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmStream.h:174:42: error: expected ',' or '...' before '<' token
+./../SrcShared/EmStream.h:174:16: error: 'template<class T> EmStream& EmStream::operator<<(int)' cannot be overloaded
+./../SrcShared/EmStream.h:140:16: error: with 'template<class T> EmStream& EmStream::operator<<(int)'
+./../SrcShared/EmStream.h:199:33: error: 'string' does not name a type
+./../SrcShared/EmStream.h:199:41: error: ISO C++ forbids declaration of 'inString' with no type [-fpermissive]
+./../SrcShared/EmStream.h:200:26: error: 'string' has not been declared
+./../SrcShared/EmStream.h: In member function 'EmStream& EmStream::operator<<(int)':
+./../SrcShared/EmStream.h:142:10: error: 'Int32' was not declared in this scope
+./../SrcShared/EmStream.h:142:16: error: expected ';' before 'numElements'
+./../SrcShared/EmStream.h:144:19: error: 'numElements' was not declared in this scope
+./../SrcShared/EmStream.h:146:19: error: expected nested-name-specifier before 'deque'
+./../SrcShared/EmStream.h:146:19: error: expected '(' before 'deque'
+./../SrcShared/EmStream.h:146:19: error: expected ';' before 'deque'
+./../SrcShared/EmStream.h:147:17: error: 'iter' was not declared in this scope
+./../SrcShared/EmStream.h:147:25: error: 'container' was not declared in this scope
+./../SrcShared/EmStream.h: In member function 'EmStream& EmStream::operator<<(int)':
+./../SrcShared/EmStream.h:159:10: error: 'Int32' was not declared in this scope
+./../SrcShared/EmStream.h:159:16: error: expected ';' before 'numElements'
+./../SrcShared/EmStream.h:161:19: error: 'numElements' was not declared in this scope
+./../SrcShared/EmStream.h:163:19: error: expected nested-name-specifier before 'list'
+./../SrcShared/EmStream.h:163:19: error: expected '(' before 'list'
+./../SrcShared/EmStream.h:163:19: error: expected ';' before 'list'
+./../SrcShared/EmStream.h:164:17: error: 'iter' was not declared in this scope
+./../SrcShared/EmStream.h:164:25: error: 'container' was not declared in this scope
+./../SrcShared/EmStream.h: In member function 'EmStream& EmStream::operator<<(int)':
+./../SrcShared/EmStream.h:176:10: error: 'Int32' was not declared in this scope
+./../SrcShared/EmStream.h:176:16: error: expected ';' before 'numElements'
+./../SrcShared/EmStream.h:178:19: error: 'numElements' was not declared in this scope
+./../SrcShared/EmStream.h:180:19: error: expected nested-name-specifier before 'vector'
+./../SrcShared/EmStream.h:180:19: error: expected '(' before 'vector'
+./../SrcShared/EmStream.h:180:19: error: expected ';' before 'vector'
+./../SrcShared/EmStream.h:181:17: error: 'iter' was not declared in this scope
+./../SrcShared/EmStream.h:181:25: error: 'container' was not declared in this scope
+./../SrcShared/EmStream.h: At global scope:
+./../SrcShared/EmStream.h:219:50: error: 'MemPtr' does not name a type
+./../SrcShared/EmStream.h:219:58: error: ISO C++ forbids declaration of 'p' with no type [-fpermissive]
+./../SrcShared/EmStream.h:226:44: error: 'MemPtr' has not been declared
+./../SrcShared/EmStream.h: In function 'EmStream& operator>>(EmStream&, int&)':
+./../SrcShared/EmStream.h:231:7: error: 'MemPtr' was not declared in this scope
+./../SrcShared/EmStream.h:231:15: error: expected ';' before 't'
+./../SrcShared/EmStream.h: At global scope:
+./../SrcShared/EmStream.h:236:50: error: 'MemHandle' does not name a type
+./../SrcShared/EmStream.h:236:61: error: ISO C++ forbids declaration of 'h' with no type [-fpermissive]
+./../SrcShared/EmStream.h: In function 'EmStream& operator<<(EmStream&, int const&)':
+./../SrcShared/EmStream.h:236:18: error: redefinition of 'EmStream& operator<<(EmStream&, int const&)'
+./../SrcShared/EmStream.h:219:18: error: 'EmStream& operator<<(EmStream&, int const&)' previously defined here
+./../SrcShared/EmStream.h: At global scope:
+./../SrcShared/EmStream.h:243:44: error: 'MemHandle' has not been declared
+./../SrcShared/EmStream.h: In function 'EmStream& operator>>(EmStream&, int&)':
+./../SrcShared/EmStream.h:243:18: error: redefinition of 'EmStream& operator>>(EmStream&, int&)'
+./../SrcShared/EmStream.h:226:18: error: 'EmStream& operator>>(EmStream&, int&)' previously defined here
+./../SrcShared/EmStream.h:248:7: error: 'MemHandle' was not declared in this scope
+./../SrcShared/EmStream.h:248:18: error: expected ';' before 't'
+In file included from ./../SrcShared/Hordes.h:19:0,
+                 from ./../SrcShared/Logging.h:17,
+                 from ./../SrcShared/EmDlg.h:23,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/CGremlins.h: At global scope:
+./../SrcShared/CGremlins.h:33:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:34:19: error: 'UInt16' has not been declared
+./../SrcShared/CGremlins.h:34:42: error: 'UInt32' has not been declared
+./../SrcShared/CGremlins.h:34:65: error: 'UInt32' has not been declared
+./../SrcShared/CGremlins.h:38:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:40:16: error: 'UInt16' has not been declared
+./../SrcShared/CGremlins.h:40:39: error: 'UInt32' has not been declared
+./../SrcShared/CGremlins.h:41:6: error: 'UInt32' has not been declared
+./../SrcShared/CGremlins.h:42:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:43:17: error: 'UInt32' has not been declared
+./../SrcShared/CGremlins.h:50:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:52:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:56:2: error: 'UInt32' does not name a type
+./../SrcShared/CGremlins.h:57:2: error: 'UInt32' does not name a type
+./../SrcShared/CGremlins.h:62:2: error: 'UInt16' does not name a type
+./../SrcShared/CGremlins.h:64:2: error: 'Int16' does not name a type
+./../SrcShared/CGremlins.h:65:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:66:2: error: 'UInt16' does not name a type
+./../SrcShared/CGremlins.h:67:2: error: 'UInt32' does not name a type
+./../SrcShared/CGremlins.h:68:2: error: 'UInt32' does not name a type
+./../SrcShared/CGremlins.h:69:2: error: 'UInt32' does not name a type
+./../SrcShared/CGremlins.h:70:2: error: 'UInt32' does not name a type
+./../SrcShared/CGremlins.h:71:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:72:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:73:2: error: 'Boolean' does not name a type
+./../SrcShared/CGremlins.h:76:2: error: 'UInt32' does not name a type
+./../SrcShared/CGremlins.h:77:2: error: 'UInt32' does not name a type
+In file included from ./../SrcShared/Logging.h:17:0,
+                 from ./../SrcShared/EmDlg.h:23,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/Hordes.h:41:8: error: 'DatabaseInfoList' does not name a type
+./../SrcShared/Hordes.h:97:10: error: 'string' does not name a type
+./../SrcShared/Hordes.h:109:36: error: 'UInt16' has not been declared
+./../SrcShared/Hordes.h:109:51: error: 'LocalID' has not been declared
+./../SrcShared/Hordes.h:130:10: error: 'DatabaseInfoList' does not name a type
+./../SrcShared/Hordes.h:132:10: error: 'string' does not name a type
+./../SrcShared/Hordes.h:145:10: error: 'string' does not name a type
+./../SrcShared/Hordes.h:146:43: error: 'string' has not been declared
+In file included from ./../SrcShared/Logging.h:18:0,
+                 from ./../SrcShared/EmDlg.h:23,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/Miscellaneous.h:105:29: error: variable or field 'ValidateFormObjects' declared void
+./../SrcShared/Miscellaneous.h:105:29: error: 'FormPtr' was not declared in this scope
+./../SrcShared/Miscellaneous.h:106:26: error: variable or field 'CollectOKObjects' declared void
+./../SrcShared/Miscellaneous.h:106:26: error: 'FormPtr' was not declared in this scope
+./../SrcShared/Miscellaneous.h:106:39: error: 'vector' was not declared in this scope
+./../SrcShared/Miscellaneous.h:106:39: note: suggested alternative:
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stl_vector.h:180:11: note:   'std::vector'
+./../SrcShared/Miscellaneous.h:106:46: error: 'UInt16' was not declared in this scope
+./../SrcShared/Miscellaneous.h:106:55: error: 'okObjects' was not declared in this scope
+./../SrcShared/Miscellaneous.h:113:23: error: variable or field 'GetDatabases' declared void
+./../SrcShared/Miscellaneous.h:113:23: error: 'DatabaseInfoList' was not declared in this scope
+./../SrcShared/Miscellaneous.h:113:41: error: 'appList' was not declared in this scope
+./../SrcShared/Miscellaneous.h:113:50: error: expected primary-expression before 'int'
+./../SrcShared/Miscellaneous.h:115:23: error: 'UInt32' was not declared in this scope
+./../SrcShared/Miscellaneous.h:115:38: error: 'UInt32' was not declared in this scope
+./../SrcShared/Miscellaneous.h:115:56: error: 'UInt16' was not declared in this scope
+./../SrcShared/Miscellaneous.h:115:70: error: expression list treated as compound expression in initializer [-fpermissive]
+./../SrcShared/Miscellaneous.h:116:21: error: 'UInt32' was not declared in this scope
+./../SrcShared/Miscellaneous.h:116:36: error: 'UInt32' was not declared in this scope
+./../SrcShared/Miscellaneous.h:116:54: error: 'UInt16' was not declared in this scope
+./../SrcShared/Miscellaneous.h:116:68: error: expression list treated as compound expression in initializer [-fpermissive]
+./../SrcShared/Miscellaneous.h:117:30: error: variable or field 'GetLoadableFileList' declared void
+./../SrcShared/Miscellaneous.h:117:30: error: 'string' was not declared in this scope
+./../SrcShared/Miscellaneous.h:117:30: note: suggested alternative:
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stringfwd.h:65:33: note:   'std::string'
+./../SrcShared/Miscellaneous.h:117:52: error: 'EmFileRefList' was not declared in this scope
+./../SrcShared/Miscellaneous.h:117:67: error: 'fileList' was not declared in this scope
+./../SrcShared/Miscellaneous.h:125:23: error: variable or field 'SeparateList' declared void
+./../SrcShared/Miscellaneous.h:125:23: error: 'StringList' was not declared in this scope
+./../SrcShared/Miscellaneous.h:125:35: error: 'stringList' was not declared in this scope
+./../SrcShared/Miscellaneous.h:125:47: error: 'string' was not declared in this scope
+./../SrcShared/Miscellaneous.h:125:47: note: suggested alternative:
+/tmp/my-android-toolchain/bin/../lib/gcc/../../include/c++/4.6/bits/stringfwd.h:65:33: note:   'std::string'
+./../SrcShared/Miscellaneous.h:125:59: error: expected primary-expression before 'char'
+./../SrcShared/Miscellaneous.h:149:1: error: 'string' does not name a type
+./../SrcShared/Miscellaneous.h:158:1: error: 'string' does not name a type
+./../SrcShared/Miscellaneous.h:159:1: error: 'string' does not name a type
+./../SrcShared/Miscellaneous.h:160:1: error: 'string' does not name a type
+./../SrcShared/Miscellaneous.h:164:1: error: 'string' does not name a type
+./../SrcShared/Miscellaneous.h:165:1: error: 'string' does not name a type
+./../SrcShared/Miscellaneous.h:166:33: error: 'UInt16' was not declared in this scope
+./../SrcShared/Miscellaneous.h:167:33: error: 'EmStackFrameList' does not name a type
+./../SrcShared/Miscellaneous.h:167:51: error: ISO C++ forbids declaration of 'stackCrawl' with no type [-fpermissive]
+./../SrcShared/Miscellaneous.h:168:11: error: 'StringList' has not been declared
+./../SrcShared/Miscellaneous.h:169:1: error: 'string' does not name a type
+./../SrcShared/Miscellaneous.h:173:9: error: 'pair' does not name a type
+./../SrcShared/Miscellaneous.h:174:9: error: 'vector' does not name a type
+./../SrcShared/Miscellaneous.h:176:27: error: variable or field 'GetMemoryTextList' declared void
+./../SrcShared/Miscellaneous.h:176:27: error: 'MemoryTextList' was not declared in this scope
+./../SrcShared/Miscellaneous.h:176:43: error: 'memoryList' was not declared in this scope
+In file included from ./../SrcShared/EmRect.h:48:0,
+                 from ./../SrcShared/Skins.h:18,
+                 from ./../SrcShared/Hardware/EmHAL.h:17,
+                 from ./../SrcShared/PreferenceMgr.h:19,
+                 from ./../SrcShared/Logging.h:19,
+                 from ./../SrcShared/EmDlg.h:23,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmPoint.h:109:3: error: 'Boolean' does not name a type
+./../SrcShared/EmPoint.h:110:3: error: 'Boolean' does not name a type
+./../SrcShared/EmPoint.h:230:3: error: 'PointType' does not name a type
+./../SrcShared/EmPoint.h:230:3: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmPoint.h:230:3: error: 'PointType' does not name a type
+./../SrcShared/EmPoint.h:230:3: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmPoint.h:245:3: error: expected type-specifier before 'PointType'
+In file included from ./../SrcShared/Skins.h:18:0,
+                 from ./../SrcShared/Hardware/EmHAL.h:17,
+                 from ./../SrcShared/PreferenceMgr.h:19,
+                 from ./../SrcShared/Logging.h:19,
+                 from ./../SrcShared/EmDlg.h:23,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/EmRect.h:333:23: error: 'RectangleType' does not name a type
+./../SrcShared/EmRect.h:333:38: error: ISO C++ forbids declaration of 'r' with no type [-fpermissive]
+./../SrcShared/EmRect.h:357:3: error: 'AbsRectType' does not name a type
+./../SrcShared/EmRect.h:357:3: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmRect.h:357:3: error: 'EmRect::EmRect(int const&)' cannot be overloaded
+./../SrcShared/EmRect.h:333:9: error: with 'EmRect::EmRect(int const&)'
+./../SrcShared/EmRect.h:357:3: error: 'AbsRectType' does not name a type
+./../SrcShared/EmRect.h:357:3: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/EmRect.h:372:3: error: expected type-specifier before 'AbsRectType'
+./../SrcShared/EmRect.h: In constructor 'EmRect::EmRect(int const&)':
+./../SrcShared/EmRect.h:334:35: error: request for member 'topLeft' in 'r', which is of non-class type 'int const'
+./../SrcShared/EmRect.h:334:48: error: request for member 'topLeft' in 'r', which is of non-class type 'int const'
+./../SrcShared/EmRect.h:335:18: error: request for member 'topLeft' in 'r', which is of non-class type 'int const'
+./../SrcShared/EmRect.h:335:32: error: request for member 'extent' in 'r', which is of non-class type 'int const'
+./../SrcShared/EmRect.h:336:18: error: request for member 'topLeft' in 'r', which is of non-class type 'int const'
+./../SrcShared/EmRect.h:336:32: error: request for member 'extent' in 'r', which is of non-class type 'int const'
+In file included from ./../SrcShared/Hardware/EmHAL.h:17:0,
+                 from ./../SrcShared/PreferenceMgr.h:19,
+                 from ./../SrcShared/Logging.h:19,
+                 from ./../SrcShared/EmDlg.h:23,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/Skins.h: At global scope:
+./../SrcShared/Skins.h:60:1: error: expected constructor, destructor, or type conversion before 'typedef'
+./../SrcShared/Skins.h:61:9: error: 'vector' does not name a type
+./../SrcShared/Skins.h:64:1: error: 'SkinName' does not name a type
+./../SrcShared/Skins.h:65:1: error: 'SkinName' does not name a type
+./../SrcShared/Skins.h:66:44: error: 'SkinNameList' has not been declared
+./../SrcShared/Skins.h:69:64: error: 'SkinName' does not name a type
+./../SrcShared/Skins.h:69:72: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/Skins.h:70:50: error: 'SkinName' does not name a type
+./../SrcShared/Skins.h:70:58: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+./../SrcShared/Skins.h:79:48: error: 'SkinName' does not name a type
+./../SrcShared/Skins.h:79:56: error: ISO C++ forbids declaration of 'parameter' with no type [-fpermissive]
+In file included from ./../SrcShared/PreferenceMgr.h:19:0,
+                 from ./../SrcShared/Logging.h:19,
+                 from ./../SrcShared/EmDlg.h:23,
+                 from ./../SrcAndroid/EmDlgAndroid.h:18,
+                 from ./../SrcAndroid/PHEMNativeIF.h:4,
+                 from ./../SrcShared/omnithread/posix.cpp:51:
+./../SrcShared/Hardware/EmHAL.h:45:1: error: expected constructor, destructor, or type conversion before 'class'
+make[1]: *** [posix.o] Error 1
+make[1]: Leaving directory `/home/sorceror/palmdev/Tooling/pose/android/BuildUnix'
+make: *** [all-recursive] Error 1
